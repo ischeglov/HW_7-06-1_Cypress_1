@@ -36,7 +36,7 @@ describe("application add books", () => {
   it("add to favorite book", () => {
     cy.signIn();
     cy.get(
-      '[href="book/a244d54a-9d2c-4a95-a306-793c5c9eede4"] > .h-100 > .card-footer > .btn'
+      '[href="book/4a5d7c98-136f-47eb-8fe9-26ef31ec137b"] > .h-100 > .card-footer > .btn'
     ).click();
     cy.contains("Favorites").click();
     cy.contains("Изучаем Java").should("be.visible", true);
