@@ -1,0 +1,20 @@
+{
+  "name": "hw_7-06-1_cypress_1",
+  "version": "1.0.0",
+  "description": "task_cypress_first",
+  "main": "index.js",
+  "scripts": {
+    "test_first": "cypress run --browser chrome --headed cypress.config.js",
+    "test_second": "cypress run --browser chrome --headless cypress.config.js",
+    "test_third": "cypress run --browser chrome --headed cypress_second.config.js",
+    "test_fourth": "cypress run --browser chrome --headless cypress_second.config.js"
+  },
+  "keywords": [
+    "cypress"
+  ],
+  "author": "ischeglov",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.15.0"
+  }
+}
